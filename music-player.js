@@ -117,7 +117,7 @@ function randomTrack() {
 
 function nextTrack() {
   let currIndex = israndom
-  ?Number.parseInt(Math.round()*music_list.length)
+  ? Number.parseInt(Math.round()*music_list.length)
   : trackInd + 1;
   playCurrentSong(currIndex);
 }
